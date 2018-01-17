@@ -1,4 +1,4 @@
-# First Rrun Server
+# First Run Server
 ```sh
 git clone https://github.com/wasit7/cs459_django2018.git
 cd cs459_django2018
@@ -16,3 +16,5 @@ python manage.py makemigrations
 python manage.py migrate
 python manage.py createsuperuser
 ```
+
+go to [localhost:8000/admin](localhost:8000/admin)
