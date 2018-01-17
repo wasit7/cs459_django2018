@@ -17,4 +17,4 @@ python manage.py migrate
 python manage.py createsuperuser
 ```
 
-go to [localhost:8000/admin](localhost:8000/admin)
+go to (localhost:8000/admin)[localhost:8000/admin]
