@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+{% block content %}
+<h1>Persons</h1>
+<div class="container-fluid">
+	<div class="row">
+		<div class="col-md-12" >
+			{% for p in object_list %}
+				<a href="/person/{{p.pk}}" class="thumbnail">
+		        	<p>name: {{ p.name }}</p>
+		        	<p>dob: {{ p.dob }}</p>
+		        </a>
+				
+			{% empty %}
+			    <div class="jumbotron">
+			    <h1>No person yet!</h1>  
+			  	</div>
+			{% endfor %}
+		</div>	
+	</div>
+</div>
+{% endblock %}

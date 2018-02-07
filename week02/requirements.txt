@@ -1,0 +1,5 @@
+django==1.9.5
+notebook==4.2.2
+jupyter-core==4.1.1
+jupyter-client==4.3.0
+django-extensions==1.7.4
