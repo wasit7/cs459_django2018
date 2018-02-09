@@ -1,7 +1,7 @@
 from django.views.generic.edit import CreateView, UpdateView
 from django.views.generic.list import ListView
-from forms import PersonForm
-from models import Person, Image
+from .forms import PersonForm
+from .models import Person, Image
 
 from django.shortcuts import render
 
