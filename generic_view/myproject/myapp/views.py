@@ -15,4 +15,4 @@ class CreatePersonView(CreateView):
 
 class ListPersonView(ListView):
     model = Person
-    template_name='ist.html'
+    template_name='list.html'
