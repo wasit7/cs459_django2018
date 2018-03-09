@@ -16,7 +16,7 @@ class Customer(models.Model):
 		return "id: {}, {}".format(self.id, self.first_name)
 
 class Rent(models.Model):
-	car_id=models.ForeignKey('Car',on_delete=models.CASCADE)
-	customer_id=models.ForeignKey('Customer',on_delete=models.CASCADE)
+	car=models.ForeignKey('Car',on_delete=models.CASCADE)
+	customer=models.ForeignKey('Customer',on_delete=models.CASCADE)
 	start=models.DateTimeField(null=True)
 	stop=models.DateTimeField(null=True)
