@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+</head>
+<body>
+
+<!-- https://vuejs.org/v2/guide/ -->
+
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+
+<div id="app">
+    <li v-for="customer in customers"> [[ customer.first_name ]] </li>
+    <input v-model='targetid'>
+    <li v-for="customer in customers" v-if="customer.id==targetid"> [[ customer.first_name ]] </li>
+</div>
+
+<script type="text/javascript">
+new Vue({
+    el: '#app',
+    delimiters: ['[[', ']]'],
+
+    mounted: function () {
+        axios.get('/api/customer/')
+            .then((response) => {
+                console.log(response.data)
+                this.customers = response.data
+            })
+    },
+
+    data: function () {
+        return {
+            'message': 'hello',
+            'targetid': 1,
+            'customers': []
+        }
+    }
+})
+</script>
+</body>
+</html>
