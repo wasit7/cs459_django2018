@@ -1,6 +1,5 @@
 # First Run Server
 ```sh
-git clone https://github.com/wasit7/cs459_django2018.git
 cd cs459_django2018
 mkdir week01
 django-admin startproject project01

@@ -31,7 +31,7 @@ def signin(request):
 				request.session['username'] = user.username
 				#print >>sys.stderr, "username_f: %s"%request.session['username']
 				
-				return redirect('main:home')
+				return redirect('http://localhost:8000/admin/')
 			else:
 				msg="Disabled account"
 		else:
