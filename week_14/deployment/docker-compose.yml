@@ -3,8 +3,9 @@ version: '3.5'
 services:
   db:
     container_name: postgres
+    build: ./postgres
     restart: always
-    image: postgres
+    #image: postgres
     #volumes:
     #  - ./postgres/data:/var/lib/postgresql/data
 
