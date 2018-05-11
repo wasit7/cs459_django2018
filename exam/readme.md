@@ -8,7 +8,7 @@
 * Q7 Find members that have total rent time exactly 8 hours in June?
 * Q8 Find members that have total rent time greater than or equal than 9 hours in June?
 * Q9 Find the total rent duration of EACH room in June?
-* Q10 Find the total income of EACH room in June?
+* Q10 Sort room (from max to min) by the total income in June
 
 # คำถาม [ข้อละ 4 คะแนน รวม 40 คะแนน]
 * Q1 ใครจ่ายเงินค่าเช่ามากที่สุด
@@ -20,4 +20,4 @@
 * Q7 หาชื่อสมาชิกที่เช่าห้อง 8 ชั่วโมงในเดือนมิถุนายน
 * Q8 หาชื่อสมาชิกที่เช่าห้องมากกว่าหรือเท่ากับ 9 ชั่วโมงในเดือนมิถุนายน
 * Q9 หาระยะเวลาเช่ารวมของแต่ละห้องในเดือนมิถุนายน
-* Q10 หารายได้รวมของแต่ละห้องในเดือนมิถุนายน
+* Q10 เรียงลำดับห้องตามรายได้รวมของแต่ละห้องในเดือนมิถุนายน
