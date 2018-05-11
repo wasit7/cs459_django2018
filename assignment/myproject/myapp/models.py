@@ -15,4 +15,4 @@ class Rent(models.Model):
 	member = models.ForeignKey(Member, on_delete=models.SET_NULL, blank=True,null=True)
 	start = models.DateTimeField( )
 	stop = models.DateTimeField( null=True, blank=True )
-	cost = models.DecimalField(max_digits=10, decimal_places=2, blank=True, null=True)
+	cost = models.DecimalField(max_digits=5, decimal_places=2, blank=True, null=True)
