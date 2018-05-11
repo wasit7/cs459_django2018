@@ -2,7 +2,7 @@
 * Q1 Who did spend most money for renting?
 * Q2 Which room does make the most amount of income?
 * Q3 How many time Jack Jones rent the room?
-* Q4 What are the roomss rented by Claire Taylor?
+* Q4 What are the rooms rented by Claire Taylor?
 * Q5 what is the total income of ALL rooms in June? Between 1st June 2018(inclusive) and 30th June 2018(inclusive), (use return date).
 * Q6 What are the total incomes of EACH room in June? Between 1st June 2018(inclusive) and 30th June 2018(inclusive), (use return date) 
 * Q7 Find members that have total rent time exactly 8 hours in June?
@@ -14,7 +14,7 @@
 * Q1 ใครจ่ายเงินค่าเช่ามากที่สุด
 * Q2 ห้องเช่าใดทำรายได้มากที่สุด
 * Q3 Jack Jones เช่าห้องไปกี่ครั้ง
-* Q4 Claire Taylor เช่าห้องไปกี่ครั้ง
+* Q4 Claire Taylor เช่าห้องใดบ้าง
 * Q5 ในเดือนมิถุนายนมีรายรับรวมเท่าใด
 * Q6 ในเดือนมิถุนายนแต่ละห้องมีรายรับรวมเท่าใด
 * Q7 หาชื่อสมาชิกที่เช่าห้อง 8 ชั่วโมงในเดือนมิถุนายน
