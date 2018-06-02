@@ -1,6 +1,3 @@
-# to run
-python manage.py shell_plus --notebook
-
 
 # Basic ORM
 
@@ -180,4 +177,5 @@ Rent.objects.filter(car__price__lte=500000, customer__first_name='Albert') #AND 
 
 
     <QuerySet [<Rent: Rent object (1)>]>
+
 
