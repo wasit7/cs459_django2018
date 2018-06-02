@@ -1,4 +1,11 @@
 # REST API
+## setting.py
+```python
+INSTALLED_APPS = [
+    ...,
+    'rest_framework',
+]
+```
 
 ## routers.py
 ```python
