@@ -1,5 +1,4 @@
-# views.py
-## basic authentication
+# views.py basic authentication
 ```python
 from django.shortcuts import render
 from django.http import HttpResponse
